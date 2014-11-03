@@ -256,7 +256,7 @@ class Zone
             }
         }
 
-        throw new RecordNotCreatedException(implode(";", $result->msgs));
+        throw new RecordNotCreatedException(print_r($result, true));
     }
 
     /**
