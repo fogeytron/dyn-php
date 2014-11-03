@@ -5,7 +5,7 @@ namespace Dyn\TrafficManagement;
 use Dyn\TrafficManagement\Record\RecordInterface;
 use Dyn\TrafficManagement\Api\Client as ApiClient;
 use Dyn\TrafficManagement\Api\Response as ApiResponse;
-use Dyn\TrafficManagement\Api\Exception\RecordNotCreatedExcception;
+use Dyn\TrafficManagement\Api\Exception\RecordNotCreatedException;
 use Dyn\TrafficManagement\Service\ServiceInterface;
 use Dyn\TrafficManagement\Service\DynamicDNS;
 
